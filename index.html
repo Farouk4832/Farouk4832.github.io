@@ -1,62 +1,101 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>Farouk's Blog</title>
+        <title>My Blog</title>
+        <link rel="style/css" href="blog.css">
         <style>
-          
+            ul{
+              list-style-type: none;
+              padding: 0;
+              margin: 0;
+              overflow: hidden;
+              background-color: transparent;
+              }
+            li{
+              float: left;
+              }
+            li a{
+                border: 4px solid white;
+                text-decoration: none;
+                color: white;
+                margin: 5px;
+                display: block;
+                padding: 10px 12px;
+                border-radius: 6px;
+            }
+            li a:hover{
+                background-color: white;
+                border: 4px solid black;
+                color: black;
+            }
+            li img{
+                margin-right: 700px;
+                margin-top: 20px;
+            }
+            body{
+                background-image: url('background.jpg');
+                text-shadow: 2px white;
+            }
+            div{
+                color: black;
+                background-color: rgb(174, 182, 191 );
+                padding: 5px 5px 5px 5px;
+                border-radius: 6px;
+                opacity: 0.7;
+            }
         </style>
     </head>
-    <body> 
-       <nav>
-        <ul>
-           <li><a href="#first">First post!</a></li>
-           <li><a href="#second">Second post!</a></li>
-           <li><a href="#third">Third post!</a></li>
-           <li><a href="#fourth">Fourth post!</a></li>
-           <li><a href="#fifth">Fifth post!</a></li>
-           </ul>
-            </nav>
-        <h2 id="first">First post</h2>
-        <h6>Posted on the 21st of July in 2020.</h6>
-        
-        <p>So its around 7:22pm in Accra-Ghana, the fourth day after my realisation of the saying that "it isn't easy to be an adult. I have been moved from my room to my little brother's room as a punishment for staying in my room alot and not taking part in activities around me.This is my second day of using Khan Academy to study html. I must say I have advanced very quickly.I already had a fair knowledge about web design from a boot camp organized by <em><a href="http://www.elite-education.org/#home" target="_blank">ELiTE</a></em>. I am on the fourth topic in this course so far my journey with Khan Academy has been interesting. The lady's voice makes it soothing to follow....lol .So I am done with CSS text properties I hope to start the next opic which is "web development tools". Right now I am writting this blog as a project at the end of the fourth topic.&lt&lt&lt(while writting that I had to attend to some domestic issues. I was just trying to find the perfect learning pattern for myself today so I tried the technique I have been using already; which is to sleep during the day and learn at night but that also coincides with what I have to do during the day and if I tried it the oppposite way I will be distracted by my sibilings or that is just a flimsy excuse?. Yesterday I made a website about recipes, I am acctually new to this journal thing. I am used to keeping my plans in my head but i once heard this from my Calculus lecturer "ideas wwhich are written in ink are likely to be achieved so I guess I must employ the habit.I will be doing this frequently from now on I think everyday.Yeah so its Farouk and I am out!! <br><em class="top"><a href="#title">To the top</a></em></p>
-        <hr>
-        <h2><a id="second">Second Post</a></h2>
-        <h6>Posted on the 22nd of July in 2020</h6>
-        <p>
-          Hello again, so its around 8:5pm this has been a short day for me I feel like I wasnt able to achieve anything today. So I started to learn around 2:00pm today but around 3:00 it was like I had forgotten what
-            I had learnt, this "made me loose vhim". So I stopped learning and thought I should take a break but I never came back from the break. That is a very negative attitude so I plan on giving
-            atleast six hours of practicing everyday from now!!. Change from now!!. There is someone's exibhition of strength that motivates me its like she is a superwoman. She always this positive energy around her. I will like to work with her in the future its lucky to be around her.She is also smart,intelligent and wise. Also her beauty is just overtop she is too beautiful. I have been crushing on her since. So thats all for today. I think I should 
-            start preparing to-do lists.<br>
-            <em class="top"><a href="#title">To the top</a></em>
-        </p>
-        <hr>
+    <body>
+            
+            <ul class="top-bar" id="title">
+                <li><img src="name.jpeg" width="100px" ></li>
+               <li><a href="#first">First post!</a></li>
+               <li><a href="#second">Second post!</a></li>
+               <li><a href="#third">Third post!</a></li>
+               <li><a href="#fourth">Fourth post!</a></li>
+               <li><a href="#fifth">Fifth post!</a></li>
+            </ul>
+            <div>   
+            <h2 id="first">First post</h2>
+            <h6>Posted on the 21st of July in 2020.</h6>
+            
+            <p>So its around 7:22pm in Accra-Ghana, the fourth day after my realisation of the saying that "it isn't easy to be an adult. I have been moved from my room to my little brother's room as a punishment for staying in my room alot and not taking part in activities around me.This is my second day of using Khan Academy to study html. I must say I have advanced very quickly.I already had a fair knowledge about web design from a boot camp organized by <em><a href="http://www.elite-education.org/#home" target="_blank">ELiTE</a></em>. I am on the fourth topic in this course so far my journey with Khan Academy has been interesting. The lady's voice makes it soothing to follow....lol .So I am done with CSS text properties I hope to start the next opic which is "web development tools". Right now I am writting this blog as a project at the end of the fourth topic.&lt&lt&lt(while writting that I had to attend to some domestic issues. I was just trying to find the perfect learning pattern for myself today so I tried the technique I have been using already; which is to sleep during the day and learn at night but that also coincides with what I have to do during the day and if I tried it the oppposite way I will be distracted by my sibilings or that is just a flimsy excuse?. Yesterday I made a website about recipes, I am acctually new to this journal thing. I am used to keeping my plans in my head but i once heard this from my Calculus lecturer "ideas wwhich are written in ink are likely to be achieved so I guess I must employ the habit.I will be doing this frequently from now on I think everyday.Yeah so its Farouk and I am out!! <br>
+                <em class="top"><a href="#title">To the top</a></em>
+            </p>
+            <hr>
+            <h2><a id="second">Second Post</a></h2>
+            <h6>Posted on the 22nd of July in 2020</h6>
+            <p>
+              Hello again, so its around 8:5pm this has been a short day for me I feel like I wasnt able to achieve anything today. So I started to learn around 2:00pm today but around 3:00 it was like I had forgotten what
+                I had learnt, this "made me loose vhim". So I stopped learning and thought I should take a break but I never came back from the break. That is a very negative attitude so I plan on giving
+                atleast six hours of practicing everyday from now!!. Change from now!!. There is someone's exibhition of strength that motivates me its like she is a superwoman. She always this positive energy around her. I will like to work with her in the future its lucky to be around her.She is also smart,intelligent and wise. Also her beauty is just overtop she is too beautiful. I have been crushing on her since. So thats all for today. I think I should 
+                start preparing to-do lists.<br>
+                <em class="top"><a href="#title">To the top</a></em>
+            </p>
+            <hr>
             <h2 id="third">Third post</h2>
             <h6>Posted on the 23nd of July in 2020</h6>
             <p>
-               So I am writting this at 8:28pm in Accra-Ghana.So today I was able to achieve what I told you guys that I was going to do yesterday. So I learnt about the css selectors and their uses it was actually interesting.I think I am on the right course to achieve my goal and InshaAllah I will get there through hardwork, persistence and determination.
-                I am also listening to this song right now titled:<a href="https://www.youtube.com/watch?v=LvKW085SQ8c" target="_blank"><em>Peter Pan by M24<em></a>.Thats all.<br>
+                   So I am writting this at 8:28pm in Accra-Ghana.So today I was able to achieve what I told you guys that I was going to do yesterday. So I learnt about the css selectors and their uses it was actually interesting.I think I am on the right course to achieve my goal and InshaAllah I will get there through hardwork, persistence and determination.
+                    I am also listening to this song right now titled:<a href="https://www.youtube.com/watch?v=LvKW085SQ8c" target="_blank"><em>Peter Pan by M24</em></a>.Thats all.<br>
+                    <em class="top"><a href="#title">To the top</a></em>
+            </p>
+            <hr>
+            <h2 id="fourth">Fourth post</h2>
+            <h6>Posted on the 24th of July in 2020</h6>
+            <p>
+                Today I just feel tired, I dont really know why. I want to move back to my room but I dont think I am going to do that anytime soon I must say. I guess I will just work my way out of here.<strong> HARD WORK AND SMART WORK ARE THE KEYS TO SUCCESS.</strong> You might not understand this now but when I reach my goal for the reason I am learning web design.<span id="reason">I'll leave a link here</span>. So today I was given a chore to do but after completing the first quarter an idea of working smart popped into my head and I decided to explore it.I ended up destroying the machine and now its going to cost my parents some "quid".So I guess that rule doesnt apply to me. I come here to write out my thoughts because I feel like this is all I can do and it is also beneficial and by that I mean <strong><insert>very beneficial</insert></strong>.
+                so today I think I am going to redesign this web page to my liking because my taste for the previous design is dead. I am acctually << going to be doing this every month. Yeah so thats all for today.<br>
                 <em class="top"><a href="#title">To the top</a></em>
             </p>
             <hr>
-                <h2 id="fourth">Fourth post</h2>
-                <h6>Posted on the 24th of July in 2020</h6>
-                <p>
-                Today I just feel tired, I dont really know why. I want to move back to my room but I dont think I am going to do that anytime soon I must say. I guess I will just work my way out of here.<strong> HARD WORK AND SMART WORK ARE THe kEYS TO SUCCESS.</strong> You might not understand this now but when I reach my goal for the reason I am learning web design.<span id="reason">I'll leave a link here</span>. So today I was given a chore to do but after completing the first quarter an idea of working smart popped into my head and I decided to explore it.I ended up destroying the machine and now its going to cost my parents some "quid".So I guess that rule doesnt apply to me. I come here to write out my thoughts because I feel like this is all I can do and it is also beneficial and by that I mean <strong><insert>very beneficial</insert></strong>.
-                 so today I think I am going to redesign this web page to my liking because my taste for the previous design is dead. I am acctually << going to be doing this every month. Yeah so thats all for today.<br>
-                <em class="top"><a href="#title">To the top</a></em>
+            <h2 id="fifth">Fifth post</h2>
+            <h6>posted on the 25th of July in 2020</h6>
+            <p>
+                <em class="top"><a href="#title">To the top</a></em>  
             </p>
             <hr>
-                <h2 id="fifth">Fifth post</h2>
-                <h6>posted on the 25th of July in 2020</h6>
-                <p>
-                  <em class="top"><a href="#title">To the top</a></em>  
-                </p>
-                <hr>
-                <a href="#reason">Reason!!</a>
-               
-            
-                
-            </body>
+              <a href="#reason">Reason!!</a>
+            </div>
+    </body>
 </html>
